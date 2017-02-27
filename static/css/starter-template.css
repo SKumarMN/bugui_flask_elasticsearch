@@ -1,0 +1,21 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+form {
+  padding: 5px;
+}
+.input-group-btn{
+	padding-left:4px;
+}
+
+.padall{
+padding: 5px;
+  margin:0 0 3px 0;
+  }
+
