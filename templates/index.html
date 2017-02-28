@@ -36,7 +36,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <h4>BUGeee!! </h4>
+                    <b> </b>
                 </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -44,9 +44,9 @@
                     <div class="row">
                         <div class="col-xs-10">
                             <div class="input-group input-group-lg">
-                                <input type="text" class="form-control" ng-model="searchText" ng-change="search()"/>
+                                <input type="text" class="form-control" ng-model="searchText" ng-change="search()" placeholder="Enter the text to search"/>
                                 <div class="input-group-btn">
-                                    <button type="submit" class="btn">Search</button>
+                                    <button type="submit" ng-click="searchAll()" class="btn btn-info">Search</button>
                                 </div>
                                 <!-- /btn-group -->
                             </div>
@@ -178,7 +178,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
